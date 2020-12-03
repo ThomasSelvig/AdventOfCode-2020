@@ -1,4 +1,4 @@
 # Advent Of Code 2020
 #### Required
-
-`pip install pyperclip`
+Python 3.8
+* `pyperclip`
