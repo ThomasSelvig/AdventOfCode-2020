@@ -4,7 +4,7 @@ import os
 assert "day3.txt" in os.listdir(), "Paste puzzle input in 'day3.txt'"
 
 with open("day3.txt") as f:
-	sledmap = [i.strip() for i in f.readlines()]
+	sledmap = [i.strip() for i in f.readlines() if i.strip()]
 
 
 def drive_sled(right, down):
