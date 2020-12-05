@@ -1,9 +1,12 @@
 import os
+from pathlib import Path
 
 
-assert "day3.txt" in os.listdir(), "Paste puzzle input in 'day3.txt'"
+assert "day3.txt" in os.listdir(str(Path(__file__).absolute().parent)), \
+	"Paste puzzle input in 'day3.txt'"
 
-with open("day3.txt") as f:
+
+with open(f"{str(Path(__file__).absolute().parent)}/day3.txt") as f:
 	sledmap = [i.strip() for i in f.readlines() if i.strip()]
 
 
