@@ -1,5 +1,5 @@
 # Advent Of Code 2020
-#### Required
+#### Required (for most challenges)
 Python 3.8
 * `pyperclip`
 
